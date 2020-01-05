@@ -20,6 +20,7 @@ int main()
 	
 	try
 	{
+		cout << "Считывание файла, отделение букв и цифр из строк, и операции на ними" << endl;
 		inFile.open(file);
 		char *str = new char[50];
 		while (!inFile.eof())
